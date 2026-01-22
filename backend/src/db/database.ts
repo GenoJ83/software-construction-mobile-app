@@ -35,6 +35,23 @@ class DatabaseService {
                 console.log('Users table initialized.');
             }
         });
+
+        this.db.run(`
+      CREATE TABLE IF NOT EXISTS posts (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        user_id INTEGER NOT NULL,
+        caption TEXT,
+        image_url TEXT,
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+        FOREIGN KEY(user_id) REFERENCES users(id)
+      )
+    `, (err) => {
+            if (err) {
+                console.error('Error creating posts table', err.message);
+            } else {
+                console.log('Posts table initialized.');
+            }
+        });
     }
 }
 
