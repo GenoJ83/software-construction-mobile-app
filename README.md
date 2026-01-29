@@ -127,8 +127,8 @@ The challenges of scaling, maintaining cross-platform consistency, ensuring secu
 
 | Name | Role | Contribution Description |
 | :--- | :--- | :--- |
-| **Asingura Philip** | Coordinator | [e.g., Organized meetings, drafted Part A, final review] |
-| **Mokili Promise Pierre** | App Analyst | [e.g., Identified core features, analyzed UI components] |
-| **Geno Owor Joshua** | System Thinker | [e.g., Mapped out backend architecture, DB schema reasoning] |
-| **Nkangi Moses** | Risk Analyst | [e.g., Developed scalability scenarios (Part C), risk analysis] |
-| **Kasingye Leone** | Documentation Lead | [e.g., Formatted README, compiled references, Part D details] |
+| **Asingura Philip** | Coordinator | Organized meetings, drafted Part A, final review |
+| **Mokili Promise Pierre** | App Analyst | Identified core features, analyzed UI components |
+| **Geno Owor Joshua** | System Thinker | Mapped out backend architecture, DB schema reasoning, led API refactoring strategies, and centralized configuration planning |
+| **Nkangi Moses** | Risk Analyst | Developed scalability scenarios (Part C), risk analysis |
+| **Kasingye Leone** | Documentation Lead | Formatted README, compiled references, Part D details |
