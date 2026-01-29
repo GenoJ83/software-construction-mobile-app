@@ -4,7 +4,9 @@ import jwt from 'jsonwebtoken';
 import { dbService } from '../db/database';
 import { User } from '../models/user.model';
 
-const SECRET_KEY = process.env.JWT_SECRET || 'fallback_secret_key_change_me';
+import { config } from '../config/config';
+
+const SECRET_KEY = config.jwtSecret;
 
 export class AuthController {
 
