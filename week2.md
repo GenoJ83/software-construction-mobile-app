@@ -14,3 +14,18 @@ A real-world situation: Legacy banking or healthcare systems often suffer from t
 AI can be really helpful when you’re learning to code because it breaks things down in a way that feels less intimidating. When you’re stuck, it can explain what a piece of code is doing, point out why an error is happening, or show another way to approach the same problem. This support saves time and reduces frustration, making it easier to keep going instead of giving up when things get confusing. 
 
 However, AI shouldn’t do the thinking for you. You still learn best by writing code yourself, making mistakes, and figuring out how to fix them. That process is where real understanding comes from. When used the right way, AI feels more like a helpful study buddy, guiding you when you’re stuck while still leaving the actual learning and growth to you. Too much reliance on AIs can lead over dependance and as a consequence, a person can never learn useful skills like debbuging or using logic. 
+
+
+**3. Explain why version control is critical in team based software development**
+
+Version control is especially important for team-based software development because it allows multiple people to work on the same project efficiently without interfering with one another’s work. In a team environment, developers are constantly making changes to the codebase, and without a structured system to manage those changes, the project can quickly become disorganized and error-prone.
+
+One major advantage of version control is collaboration. It enables team members to work on different features or fixes at the same time while keeping their work separate until it is ready to be integrated. When changes are combined, the version control system helps identify conflicts and provides tools to resolve them. This prevents accidental overwriting of code and ensures that everyone’s contributions are preserved.
+
+Version control also provides transparency and accountability within a team. Every change is recorded along with information about who made it and why. This makes it easier for team members to understand the evolution of the code, review each other’s work, and discuss design decisions. If a bug appears, the team can quickly trace it back to a specific change and address it efficiently.
+
+Another important benefit is support for code reviews and quality control. Most team workflows use version control to review changes before they are merged into the main codebase. This process helps catch bugs early, enforces coding standards, and encourages knowledge sharing among team members, which strengthens the overall skill level of the team.
+
+
+
+In summary, version control is essential for team-based software development because it enables collaboration, maintains accountability, improves code quality, and ensures the stability of the shared codebase. Without it, coordinating work within a team would be far more difficult and risky.
