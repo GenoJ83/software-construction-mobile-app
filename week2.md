@@ -1,6 +1,34 @@
 **Understanding Software Construction and Collaboration**
 
+**1. Difference between programming and software construction**
 
+Programming is the act of writing code to solve a specific problem. It focuses on making the computer do what you want—implementing logic, algorithms, and functions so that the program works.
+
+Software construction, on the other hand, is broader. It includes programming plus how the code is structured, documented, tested, version-controlled, and maintained so that other people (and your future self) can understand, extend, and trust it over time.
+
+For example;
+
+Imagine building a mobile banking application.
+
+Programming is writing code to:
+
+- Calculate account balances
+
+- Transfer money between accounts
+
+- Validate login credentials
+
+Software construction is:
+
+- Organizing the code into clear modules (authentication, transactions, UI)
+
+- Using version control (Git) so multiple developers can work safely
+
+- Writing readable code and comments so new developers can understand it
+
+- Adding tests to ensure updates don’t break money transfers
+
+- Following standards so the app can be updated and secured years later
 
 **2. Situation where poor maintainability could cause serious problems**
 
